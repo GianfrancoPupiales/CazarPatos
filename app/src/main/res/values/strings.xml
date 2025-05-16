@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CazarPatos</string>
+    <string name="buttonLogin">LOGIN</string>
+    <string name="textHelloAndroid">Hello Android</string>
 </resources>
