@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
         //Inicialización de variables
         // manejadorArchivo = SharedPreferencesManager(this)
         // manejadorArchivo = EncryptedSharedPreferencesManager(this)
-        manejadorArchivo = FileInternalManager(this)
+        manejadorArchivo = FileExternalManager(this)
         editTextEmail = findViewById(R.id.editTextEmail)
         editTextPassword = findViewById(R.id.editTextPassword)
         buttonLogin = findViewById(R.id.buttonLogin)
