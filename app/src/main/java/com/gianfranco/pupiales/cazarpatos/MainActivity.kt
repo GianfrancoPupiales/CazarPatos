@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var textViewTime: TextView
     private lateinit var imageViewDuck: ImageView
     private lateinit var soundPool: SoundPool
+
     // Manejador para retrasar la restauración de la imagen original
     private val handler = Handler(Looper.getMainLooper())
     private var counter = 0
