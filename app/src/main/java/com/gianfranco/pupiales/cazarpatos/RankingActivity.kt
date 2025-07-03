@@ -20,9 +20,14 @@ class RankingActivity : AppCompatActivity() {
         }*/
         var jugadores = arrayListOf<Player>()
         jugadores.add(Player("Gianfranco.Pupiales",10))
-        jugadores.add(Player("Jugador2",6))
-        jugadores.add(Player("Jugador3",3))
-        jugadores.add(Player("Jugador4",9))
+        jugadores.add(Player("Jugador2",9))
+        jugadores.add(Player("Jugador3",8))
+        jugadores.add(Player("Jugador4",7))
+        jugadores.add(Player("Jugador5",6))
+        jugadores.add(Player("Jugador6",5))
+        jugadores.add(Player("Jugador7",4))
+        jugadores.add(Player("Jugador8",3))
+        jugadores.add(Player("Jugador9",2))
         jugadores.sortByDescending { it.huntedDucks }
 
         val recyclerViewRanking: RecyclerView = findViewById(R.id.recyclerViewRanking);
